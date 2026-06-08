@@ -1,67 +1,67 @@
-# Recommended Cybersecurity Certification Path
+# Proponowana ścieżka certyfikacji w cyberbezpieczeństwie
 
-Below is my **recommended certification path**, based on what I’ve found to be the most effective learning progression for building strong, real-world cybersecurity skills.  
-This is **not the only path**, but in my opinion it’s one of the clearest and most practical sequences for most beginners and intermediate learners.
+Poniżej moja **proponowana ścieżka certyfikacji**, oparta na tym, co sprawdziło mi się jako najskuteczniejszy sposób budowania mocnych, praktycznych umiejętności.
+To **nie jest jedyna droga**, ale moim zdaniem jedna z najczytelniejszych i najbardziej praktycznych sekwencji dla większości początkujących i średniozaawansowanych.
 
-There are **many other valuable certifications** depending on your specialization — offensive security, blue team, cloud security, governance, forensics, or management. Cybersecurity is a huge field, and every professional eventually chooses a direction that fits their goals.
+Istnieje **wiele innych wartościowych certyfikatów** w zależności od specjalizacji — bezpieczeństwo ofensywne, blue team, bezpieczeństwo chmury, governance, forensics czy zarządzanie. Cyberbezpieczeństwo to ogromna dziedzina i każdy z czasem wybiera kierunek dopasowany do swoich celów.
 
-If you want to explore **all major certifications and possible paths**, I highly recommend checking out the full interactive map here:  
-<a HREF="https://pauljerimy.com/security-certification-roadmap/">Security Certification Roadmap</a> (*a comprehensive visual guide to nearly every cybersecurity certification on the market*)
+Jeśli chcesz poznać **wszystkie najważniejsze certyfikaty i możliwe ścieżki**, gorąco polecam pełną, interaktywną mapę:
+[Security Certification Roadmap](https://pauljerimy.com/security-certification-roadmap/) — *kompleksowy, wizualny przewodnik po niemal każdym certyfikacie z rynku*.
 
-## STAGE 1 — Foundations (Networking, Systems, Security Basics)
+## Etap 1 — Fundamenty (sieci, systemy, podstawy bezpieczeństwa)
 
-* **CompTIA Network+**  
-*The most popular entry-level networking certification essential for security.*
+* **CompTIA Network+**
+*Najpopularniejszy certyfikat sieciowy poziomu podstawowego, niezbędny w bezpieczeństwie.*
 
-* **CompTIA Security+**  
-*Industry-standard first security certification; often the minimum for junior roles.*
+* **CompTIA Security+**
+*Standardowy pierwszy certyfikat z bezpieczeństwa; często minimum przy stanowiskach juniorskich.*
 
-## STAGE 2 — Core Security Skills (Choose a path)
+## Etap 2 — Kluczowe umiejętności bezpieczeństwa (wybierz ścieżkę)
 
-* **Path A — Offensive Security / Pentesting**
+* **Ścieżka A — bezpieczeństwo ofensywne / pentesting**
 
-    * **eJPT (INE / ElearnSecurity Junior Penetration Tester)**  
-    *One of the best beginner-friendly practical pentesting certs.*
+    * **eJPT (INE / eLearnSecurity Junior Penetration Tester)**
+    *Jeden z najlepszych, przyjaznych początkującym, praktycznych certyfikatów z pentestów.*
 
-    * **Burp Suite Certified Practitioner (BSCP)**  
-    *Becoming a Burp Suite Certified Practitioner demonstrates a deep knowledge of web security vulnerabilities, the correct mindset to exploit them.*
+    * **Burp Suite Certified Practitioner (BSCP)**
+    *Potwierdza dogłębną znajomość podatności aplikacji webowych oraz właściwe nastawienie do ich eksploitacji.*
 
-    * **PNPT (TCM Security Practical Network Penetration Tester)**  
-    *Highly practical, focuses on real-world pentests including reporting.*
+    * **PNPT (TCM Security Practical Network Penetration Tester)**
+    *Bardzo praktyczny, skupia się na realnych pentestach łącznie z raportowaniem.*
 
-    * **OSCP (Offensive Security Certified Professional)**  
-    *The gold standard for penetration testers; hands-on, challenging.*
+    * **OSCP (Offensive Security Certified Professional)**
+    *Złoty standard dla pentesterów; praktyczny i wymagający.*
 
-* **Path B — Blue Team / Defense**
+* **Ścieżka B — blue team / obrona**
 
-    * **CompTIA CySA+**  
-    *Security analytics, monitoring, threat detection.*
+    * **CompTIA CySA+**
+    *Analityka bezpieczeństwa, monitoring, wykrywanie zagrożeń.*
 
-    * **eCDFP / eCIR / eCTHP (ElearnSecurity defensive certs)**  
-    *Practical blue-team certifications.*
+    * **eCDFP / eCIR / eCTHP (certyfikaty defensywne eLearnSecurity)**
+    *Praktyczne certyfikaty blue-teamowe.*
 
-    * **GCIA / GCED / GCIH (SANS GIAC)**  
-    *Top-tier defensive certifications — expensive but elite.*
+    * **GCIA / GCED / GCIH (SANS GIAC)**
+    *Najwyższej klasy certyfikaty defensywne — drogie, ale elitarne.*
 
-* **Path C — Cloud Security**
+* **Ścieżka C — bezpieczeństwo chmury**
 
-    * **Cloud Basics**
+    * **Podstawy chmury**
         * **Microsoft Certified: Azure Fundamentals**
         * **AWS Certified Cloud Practitioner**
 
-    * **AWS Security Specialty**  
-    *Best starting point for cloud-focused security.*
+    * **AWS Security Specialty**
+    *Najlepszy punkt startowy dla bezpieczeństwa skupionego na chmurze.*
 
-    * **Microsoft SC-200 / SC-300 / SC-400**  
-    *Incident response, identity, and compliance across Microsoft ecosystems.*
+    * **Microsoft SC-200 / SC-300 / SC-400**
+    *Reagowanie na incydenty, tożsamość i compliance w ekosystemie Microsoft.*
 
-    * **CCSP (ISC2 Certified Cloud Security Professional)**  
-    *Advanced cloud security governance and architecture — highly respected.*
+    * **CCSP (ISC2 Certified Cloud Security Professional)**
+    *Zaawansowane governance i architektura bezpieczeństwa chmury — bardzo ceniony.*
 
-## STAGE 3 — Senior & Leadership-Level Certifications
+## Etap 3 — Certyfikaty seniorskie i menedżerskie
 
-* **CISSP (ISC2 Certified Information Systems Security Professional)**  
-*Considered the most prestigious security cert; requires strong experience.*
+* **CISSP (ISC2 Certified Information Systems Security Professional)**
+*Uznawany za najbardziej prestiżowy certyfikat z bezpieczeństwa; wymaga sporego doświadczenia.*
 
-* **CISA (ISACA Certified Information Systems Auditor)**  
-*For professionals focusing on audit, compliance, and risk.*
+* **CISA (ISACA Certified Information Systems Auditor)**
+*Dla osób skupionych na audycie, compliance i ryzyku.*

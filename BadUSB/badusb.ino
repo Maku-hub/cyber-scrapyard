@@ -1,4 +1,4 @@
-// Emulator klawiatury CJMUC-32 z układem ATMEGA32U4
+// Emulator klawiatury CJMCU-32 z układem ATMEGA32U4
 
 #include <Keyboard.h>
 #include <SPI.h>
@@ -79,6 +79,8 @@ void setup() {
   }
 
   root = SD.open("/");
+
+  loadKeymap("lang.cfg");
 
   mode = readConfig("mode.cfg");
   payload = readConfig("exec.cfg");
@@ -208,6 +210,38 @@ void pressChar(byte in) {
     Keyboard.press(in);
     delay(5);
   }
+}
+
+// Wczytuje mapę znaków z pliku na karcie SD (np. dla układu innego niż US).
+// Format: po jednym wpisie w linii, trzy liczby dziesiętne oddzielone przecinkami: in,modifier,out
+//   in       - kod znaku wejściowego (np. ze STRING/CTRL)
+//   modifier - klawisz wciskany razem z out (0 = brak; np. 134 = KEY_RIGHT_ALT dla AltGr)
+//   out      - kod znaku/klawisza faktycznie wysyłanego do hosta
+// Linie puste oraz zaczynające się od '#' są pomijane.
+// Brak pliku => tablice pozostają puste, a convertLangChar() działa jako passthrough.
+void loadKeymap(String fileName) {
+  File mapFile = SD.open(fileName);
+  if (!mapFile) {
+    return;
+  }
+  int idx = 0;
+  while (mapFile.available() && idx < 64) {
+    String line = mapFile.readStringUntil('\n');
+    line.trim();
+    if (line.length() == 0 || line.charAt(0) == '#') {
+      continue;
+    }
+    int c1 = line.indexOf(',');
+    int c2 = line.indexOf(',', c1 + 1);
+    if (c1 < 0 || c2 < 0) {
+      continue; // pominięcie błędnie sformatowanej linii
+    }
+    inChar[idx]   = (byte) line.substring(0, c1).toInt();
+    modifier[idx] = (byte) line.substring(c1 + 1, c2).toInt();
+    outChar[idx]  = (byte) line.substring(c2 + 1).toInt();
+    idx++;
+  }
+  mapFile.close();
 }
 
 String readConfig(String fileName) {

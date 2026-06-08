@@ -1,68 +1,74 @@
-### Note About Cost & DIY Alternatives
+# Sprzęt i narzędzia
 
-Many of the tools listed here may look expensive, and in reality **a large number of them can be recreated much more cheaply** using open-source hardware, microcontrollers, or DIY components.  
-For example:
-* A **Rubber Ducky** can be built using a simple **ATmega32U4 board (e.g., CJMCU / Pro Micro)** with custom HID-injection firmware [like this](./BadUSB/badusb.ino).
-* A **WiFi pentesting adapter** can sometimes be replaced with a cheap card using the same chipset.
-* Even tools like **Bash Bunny** **or O.MG Cable** have partial DIY equivalents using ESP8266/ESP32 boards and open-source payload frameworks.
+Zbiór sprzętu i oprogramowania przydatnego w cyberbezpieczeństwie. Niżej, w sekcji [Koszt i tańsze odpowiedniki DIY](#koszt-i-ta%C5%84sze-odpowiedniki-diy), opis tego, co da się odtworzyć taniej własnymi siłami.
 
-So yes — **you can build simplified versions of these tools at a fraction of the cost**, and for learning or experimentation this is often completely fine.
+## Uwierzytelnianie i sprzętowe klucze bezpieczeństwa
 
-Why are the official commercial tools expensive?
+* **YubiKey / Security Key NFC (Yubico)** — klucze sprzętowe najwyższej klasy do MFA, logowania bez hasła, SSH, FIDO2.
 
-Even though many of these devices have cheap DIY alternatives, the official versions cost more because they offer:
-* **Higher reliability** – they work consistently and are built to last.
-* **Better firmware and features** – optimized payload engines, stable updates, and polished software.
-* **Ease of use** – no setup, coding, or hardware tweaking; they work out of the box.
-* **Support & updates** – regular improvements, bug fixes, documentation, and community resources.
-* **Professional trust** – widely used in the industry, so results are predictable and standardized.
+## Narzędzia bezprzewodowe (Wi-Fi)
 
-In short: **you pay for stability, convenience, and professional-grade quality**, not just the raw hardware.
+* **Alfa AWUS036ACHM / AWUS1900 / AWUS036AXML** — mocne, dobrze wspierane karty do trybu monitor i wstrzykiwania pakietów.
+* **Wi-Fi Pineapple** — wyspecjalizowane urządzenie do ataków na Wi-Fi: rogue AP, man-in-the-middle, szkolenia.
 
-## Authentication & Hardware Security Keys
+## Narzędzia USB
 
-* **YubiKey / Security Key NFC (Yubico)** – Best-in-class hardware keys for MFA, passwordless login, SSH, FIDO2.
+* **Bash Bunny** — wielopayloadowa platforma ataków przez USB (wstrzykiwanie klawiatury, spoofing sieci, kradzież poświadczeń itd.).
+* **Rubber Ducky** — klasyczne urządzenie udające „klawiaturę USB"; bardzo proste i skuteczne.
+* **O.MG Cable** — uzbrojony kabel zdolny do dostarczania payloadów, zdalnego wyzwalania i ataków HID.
+* **USBKill V4** — urządzenie niszczące, które przepala linie zasilania USB (atak fizyczny — nieodwracalnie uszkadza sprzęt).
 
-## Wireless Tools
+## Implanty sieciowe i urządzenia improwizowane
 
-* **Alfa AWUS036ACHM / AWUS1900 / AWUS036AXML** – Strong, well-supported adapters for monitor mode & packet injection.
-* **WiFi Pineapple** – Specialized device for Wi-Fi attacks, rogue AP, man-in-the-middle, training.
+* **Packet Squirrel** — inline'owy implant sieciowy do przechwytywania pakietów i zdalnego dostępu.
+* **Plunder Bug** — kompaktowy tap/sniffer sieciowy.
+* **Shark Jack** — szybkie narzędzie do rozpoznania sieci oparte na payloadach.
+* **Screen Crab** — implant do przechwytywania obrazu (zrzuty ekranu przez sieć).
 
-## USB Tools
+## Radio, SDR i badania RF
 
-* **Bash Bunny** – Multi-payload USB attack platform (keyboard injection, network spoofing, credential theft, etc.)
-* **Rubber Ducky** – Classic “USB keyboard” attack device; extremely simple and effective.
-* **O.MG Cable** – Weaponized cable capable of payload delivery, remote triggers, HID attacks.
-* **USBKill V4** – Physical security tool that fries USB power lines (not for offensive use).
+* **RTL-SDR V4** — budżetowe radio programowalne; świetne do nauki podstaw SDR.
+* **HackRF One** — SDR średniej klasy z TX/RX; idealny do badań nad bezpieczeństwem bezprzewodowym.
+* **KrakenSDR** — wielokanałowy SDR do zaawansowanej analizy RF i namierzania kierunku (direction finding).
 
-## Network Implants & Improv Devices
+## RFID, NFC i kontrola dostępu
 
-* **Packet Squirrel** – Inline network implant for packet capture & remote access.
-* **Plunder Bug** – Compact network tap/sniffer.
-* **Shark Jack** – Quick payload-based network reconnaissance tool.
-* **Screen Crab** – Video capture implant (screenshots over network).
+* **Proxmark 3 RDV4.01** — najlepsze narzędzie do badań nad RFID: klonowanie, łamanie, analiza.
+* **Chameleon Ultra** — wydajny emulator/kloner NFC do testów i badań.
+* **Ultimate Magic Card (Gen4)** — emulator kart HF z zaawansowanymi funkcjami.
+* **RFID Field Detector** — proste narzędzie do wizualizacji obecności pola RFID.
 
-## Radio, SDR & Wireless Research
+## Multitoole i pozostały sprzęt
 
-* **RTL-SDR V4** – Budget software-defined radio; great for learning SDR basics.
-* **HackRF One** – Mid-range SDR with TX/RX; ideal for wireless hacking research.
-* **KrakenSDR** – Multi-channel SDR for advanced RF analysis, direction finding, advanced research.
+* **Flipper Zero** — wieloprotokołowa „zabawka" hakerska: sub-GHz, RFID, NFC, IR, GPIO; ogromny ekosystem.
+* **PandwaRF** — narzędzie sub-GHz do replay i analizy sygnałów RF.
+* **ChipWhisperer** — platforma do hardware hackingu i analizy side-channel.
 
-## RFID, NFC & Access Control
+## Oprogramowanie
 
-* **Proxmark 3 RDV4.01** – The best tool for RFID research, cloning, cracking, and analysis.
-* **Chameleon Ultra** – Powerful NFC emulator/cloner for testing & research.
-* **Ultimate Magic Card (Gen4)** – HF card emulator with advanced features.
-* **RFID Field Detector** – Simple tool for visualization of RFID field presence.
+* **Burp Suite Professional (PortSwigger Pro)** — standardowy w branży zestaw do pentestów aplikacji webowych.
+* **Binary Ninja** — zaawansowana platforma do reverse engineeringu (czytelny interfejs, mocne skryptowanie).
+* **Shodan** — „wyszukiwarka internetu rzeczy"; świetna do rozpoznania i mapowania wystawionych systemów.
 
-## Multi-Tool & Misc Hardware
+## Koszt i tańsze odpowiedniki DIY
 
-* **Flipper Zero** – Multi-protocol cyber toy: sub-GHz, RFID, NFC, IR, GPIO; huge ecosystem.
-* **PandwaRF** – Sub-GHz hacking tool for RF replay and analysis.
-* **ChipWhisperer** – Hardware hacking & side-channel analysis platform.
+Wiele z wymienionych narzędzi wygląda na drogie, a w praktyce **sporą ich część da się odtworzyć dużo taniej** z użyciem otwartego sprzętu, mikrokontrolerów lub komponentów DIY.
+Na przykład:
 
-## Software Tools
+* **Rubber Ducky** można zbudować na prostej płytce **ATmega32U4 (np. CJMCU / Pro Micro)** z własnym firmware do wstrzykiwania HID — [jak tutaj](./BadUSB/badusb.ino).
+* **Kartę do pentestów Wi-Fi** często można zastąpić tanią kartą na tym samym chipsecie.
+* Nawet narzędzia takie jak **Bash Bunny** czy **O.MG Cable** mają częściowe odpowiedniki DIY oparte na płytkach ESP8266/ESP32 i otwartych frameworkach payloadów.
 
-* **Burp Suite Professional (PortSwigger Pro)** – Industry-standard web application pentest suite.
-* **Binary Ninja** – Advanced reverse engineering platform (clean UI, powerful scripting).
-* **Shodan** – “Search engine for the internet”; great for recon, mapping exposed systems.
+Tak więc **uproszczone wersje tych narzędzi da się zbudować za ułamek ceny** — do nauki i eksperymentów to zwykle w zupełności wystarcza.
+
+### Dlaczego oficjalne, komercyjne narzędzia są droższe?
+
+Mimo że wiele z tych urządzeń ma tanie odpowiedniki DIY, wersje oficjalne kosztują więcej, bo oferują:
+
+* **Wyższą niezawodność** — działają stabilnie i są zbudowane na lata.
+* **Lepszy firmware i funkcje** — zoptymalizowane silniki payloadów, stabilne aktualizacje, dopracowane oprogramowanie.
+* **Łatwość użycia** — brak konfiguracji, kodowania czy grzebania w sprzęcie; działają od razu.
+* **Wsparcie i aktualizacje** — regularne usprawnienia, poprawki błędów, dokumentacja, zasoby społeczności.
+* **Zaufanie zawodowe** — szeroko stosowane w branży, więc wyniki są przewidywalne i powtarzalne.
+
+W skrócie: **płacisz za stabilność, wygodę i jakość klasy profesjonalnej**, nie tylko za sam sprzęt.

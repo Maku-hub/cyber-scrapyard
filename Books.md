@@ -1,41 +1,42 @@
-# Recommended Cybersecurity Book List
+# Polecane książki o cyberbezpieczeństwie
 
-Below is a collection of books that **I personally like and recommend** for anyone beginning or growing their cybersecurity skills.  
-This list isn’t the only possible path, but in my opinion it provides a strong and practical foundation across networking, Linux, programming, and ethical hacking.
+Poniżej zbiór książek, które **osobiście lubię i polecam** każdemu, kto zaczyna lub rozwija swoje umiejętności w cyberbezpieczeństwie.
+To nie jest jedyna możliwa ścieżka, ale moim zdaniem daje solidne i praktyczne podstawy w zakresie sieci, Linuksa, programowania i etycznego hakowania.
 
-## Networking
+## Sieci
 
-* **Adam Józefiok** — ***CCNA 200-120. Zostań administratorem sieci komputerowych Cisco***  
-Great introduction to networking fundamentals, routing, switching, and Cisco concepts with clear explanations in Polish.
+* **Adam Józefiok** — ***CCNA 200-120. Zostań administratorem sieci komputerowych Cisco***
+Świetne wprowadzenie do podstaw sieci, routingu, switchingu i koncepcji Cisco, z jasnymi wyjaśnieniami po polsku.
 
-* **Mike Meyers, Scott Jernigan** — ***CompTIA Network+ All-in-One Exam Guide***  
-Beginner-friendly, broad coverage of networking essentials. Excellent for learning before diving into cybersecurity topics.
+* **Mike Meyers, Scott Jernigan** — ***CompTIA Network+ All-in-One Exam Guide***
+Przyjazne początkującym, szerokie omówienie podstaw sieci. Doskonałe na rozgrzewkę przed tematami związanymi z bezpieczeństwem.
 
 ## Linux
 
-* **Christopher Negus** — ***Linux Bible***  
-*One of the most complete Linux resources available — commands, system administration, shells, and workflows. Perfect for beginners and intermediate users.*
+* **Christopher Negus** — ***Linux Bible***
+Jeden z najbardziej kompletnych materiałów o Linuksie — komendy, administracja systemem, powłoki i typowe przepływy pracy. Idealne dla początkujących i średniozaawansowanych.
 
-* **Karol Szafrański** — ***Twierdza Linux: Bezpieczeństwo dla dociekliwych***  
-*A practical, security-focused Linux book. Great for understanding hardening, permissions, and real-world defensive practices.*
+* **Karol Szafrański** — ***Twierdza Linux: Bezpieczeństwo dla dociekliwych***
+Praktyczna książka o Linuksie ze skupieniem na bezpieczeństwie. Świetna do zrozumienia hardeningu, uprawnień i realnych praktyk obronnych.
 
-## Programming & Exploitation Basics
-* **Justin Seitz, Tim Arnold** — ***Black Hat Python***  
-*Shows how Python is used in offensive security: writing tools, exploits, backdoors. Highly practical.*
+## Programowanie i podstawy eksploitacji
 
-* **Jon Erickson** — ***Hacking: The Art of Exploitation***  
-*A classic. Teaches low-level concepts (memory, assembly, exploitation) with hands-on examples. More advanced, but extremely rewarding.*
+* **Justin Seitz, Tim Arnold** — ***Black Hat Python***
+Pokazuje, jak Python wykorzystuje się w bezpieczeństwie ofensywnym: pisanie narzędzi, exploitów, backdoorów. Bardzo praktyczna.
 
-## Cybersecurity
+* **Jon Erickson** — ***Hacking: The Art of Exploitation***
+Klasyka. Uczy niskopoziomowych zagadnień (pamięć, asembler, eksploitacja) na praktycznych przykładach. Bardziej zaawansowana, ale bardzo wartościowa.
 
-* **Georgia Weidman** — ***Penetration Testing: A Hands-On Introduction to Hacking***  
-*One of the best beginner pentesting books. Very practical, walks you through tools, methodology, and real techniques.*
+## Cyberbezpieczeństwo
 
-* **Peter Kim** — ***The Hacker Playbook 2 & 3***  
-*Action-based guides full of realistic attack scenarios and workflows. Great bridge between beginner and intermediate hacking.*
+* **Georgia Weidman** — ***Penetration Testing: A Hands-On Introduction to Hacking***
+Jedna z najlepszych książek o pentestach dla początkujących. Bardzo praktyczna — prowadzi przez narzędzia, metodykę i realne techniki.
 
-* **Securitum** — ***Wprowadzenie do bezpieczeństwa IT: Tom 1 & 2***  
-*Polish, modern, and very clear introductions to core security concepts, attacks, and defensive principles.*
+* **Peter Kim** — ***The Hacker Playbook 2 & 3***
+Praktyczne przewodniki pełne realistycznych scenariuszy ataków i przepływów pracy. Dobry pomost między poziomem początkującym a średniozaawansowanym.
 
-* **Arthur Conklin, Greg White** — ***CompTIA Security+ All-in-One Exam Guide***  
-*A strong foundation for security theory — risk, cryptography, policies, architecture. Good for beginners who want structured knowledge.*
+* **Securitum** — ***Wprowadzenie do bezpieczeństwa IT: Tom 1 & 2***
+Polskie, nowoczesne i bardzo przejrzyste wprowadzenie do kluczowych koncepcji bezpieczeństwa, ataków i zasad obrony.
+
+* **Arthur Conklin, Greg White** — ***CompTIA Security+ All-in-One Exam Guide***
+Solidne podstawy teorii bezpieczeństwa — ryzyko, kryptografia, polityki, architektura. Dobre dla początkujących, którzy chcą uporządkowanej wiedzy.

